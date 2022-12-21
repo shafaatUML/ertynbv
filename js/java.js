@@ -342,7 +342,7 @@ $("#submit").click(function () {
     for (var x = 0; x < 7; x++) {
         const calcscore = document.getElementById("rindex_" + x);
         if (calcscore.dataset.index == 2 || calcscore.dataset.index == 6 || calcscore.dataset.index == 8 || calcscore.dataset.index == 12) {
-            amount = amount++;
+            amount = amount + 1;
             console.log("amount loop "+amount); 
         }
 
